@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C36B4B4125D3BFEA0053FAC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B4B4025D3BFEA0053FAC3 /* AppDelegate.swift */; };
+		C36B4B4325D3BFEA0053FAC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B4B4225D3BFEA0053FAC3 /* SceneDelegate.swift */; };
+		C36B4B4525D3BFEA0053FAC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B4B4425D3BFEA0053FAC3 /* ContentView.swift */; };
+		C36B4B4725D3BFEC0053FAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36B4B4625D3BFEC0053FAC3 /* Assets.xcassets */; };
+		C36B4B4A25D3BFEC0053FAC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36B4B4925D3BFEC0053FAC3 /* Preview Assets.xcassets */; };
+		C36B4B4D25D3BFEC0053FAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36B4B4B25D3BFEC0053FAC3 /* LaunchScreen.storyboard */; };
+		C36B4B5825D3BFEC0053FAC3 /* Tren_with_diagramsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B4B5725D3BFEC0053FAC3 /* Tren_with_diagramsTests.swift */; };
+		C36B4B6325D3BFEC0053FAC3 /* Tren_with_diagramsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B4B6225D3BFEC0053FAC3 /* Tren_with_diagramsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C36B4B5425D3BFEC0053FAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36B4B3525D3BFEA0053FAC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36B4B3C25D3BFEA0053FAC3;
+			remoteInfo = "Tren with diagrams";
+		};
+		C36B4B5F25D3BFEC0053FAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36B4B3525D3BFEA0053FAC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36B4B3C25D3BFEA0053FAC3;
+			remoteInfo = "Tren with diagrams";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C36B4B3D25D3BFEA0053FAC3 /* Tren with diagrams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tren with diagrams.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36B4B4025D3BFEA0053FAC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C36B4B4225D3BFEA0053FAC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C36B4B4425D3BFEA0053FAC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C36B4B4625D3BFEC0053FAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C36B4B4925D3BFEC0053FAC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C36B4B4C25D3BFEC0053FAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C36B4B4E25D3BFEC0053FAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36B4B5325D3BFEC0053FAC3 /* Tren with diagramsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tren with diagramsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36B4B5725D3BFEC0053FAC3 /* Tren_with_diagramsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tren_with_diagramsTests.swift; sourceTree = "<group>"; };
+		C36B4B5925D3BFEC0053FAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36B4B5E25D3BFEC0053FAC3 /* Tren with diagramsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tren with diagramsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36B4B6225D3BFEC0053FAC3 /* Tren_with_diagramsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tren_with_diagramsUITests.swift; sourceTree = "<group>"; };
+		C36B4B6425D3BFEC0053FAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36B4B3A25D3BFEA0053FAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36B4B5025D3BFEC0053FAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36B4B5B25D3BFEC0053FAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C36B4B3425D3BFEA0053FAC3 = {
+			isa = PBXGroup;
+			children = (
+				C36B4B3F25D3BFEA0053FAC3 /* Tren with diagrams */,
+				C36B4B5625D3BFEC0053FAC3 /* Tren with diagramsTests */,
+				C36B4B6125D3BFEC0053FAC3 /* Tren with diagramsUITests */,
+				C36B4B3E25D3BFEA0053FAC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C36B4B3E25D3BFEA0053FAC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36B4B3D25D3BFEA0053FAC3 /* Tren with diagrams.app */,
+				C36B4B5325D3BFEC0053FAC3 /* Tren with diagramsTests.xctest */,
+				C36B4B5E25D3BFEC0053FAC3 /* Tren with diagramsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C36B4B3F25D3BFEA0053FAC3 /* Tren with diagrams */ = {
+			isa = PBXGroup;
+			children = (
+				C36B4B4025D3BFEA0053FAC3 /* AppDelegate.swift */,
+				C36B4B4225D3BFEA0053FAC3 /* SceneDelegate.swift */,
+				C36B4B4425D3BFEA0053FAC3 /* ContentView.swift */,
+				C36B4B4625D3BFEC0053FAC3 /* Assets.xcassets */,
+				C36B4B4B25D3BFEC0053FAC3 /* LaunchScreen.storyboard */,
+				C36B4B4E25D3BFEC0053FAC3 /* Info.plist */,
+				C36B4B4825D3BFEC0053FAC3 /* Preview Content */,
+			);
+			path = "Tren with diagrams";
+			sourceTree = "<group>";
+		};
+		C36B4B4825D3BFEC0053FAC3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C36B4B4925D3BFEC0053FAC3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C36B4B5625D3BFEC0053FAC3 /* Tren with diagramsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C36B4B5725D3BFEC0053FAC3 /* Tren_with_diagramsTests.swift */,
+				C36B4B5925D3BFEC0053FAC3 /* Info.plist */,
+			);
+			path = "Tren with diagramsTests";
+			sourceTree = "<group>";
+		};
+		C36B4B6125D3BFEC0053FAC3 /* Tren with diagramsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C36B4B6225D3BFEC0053FAC3 /* Tren_with_diagramsUITests.swift */,
+				C36B4B6425D3BFEC0053FAC3 /* Info.plist */,
+			);
+			path = "Tren with diagramsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C36B4B3C25D3BFEA0053FAC3 /* Tren with diagrams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36B4B6725D3BFEC0053FAC3 /* Build configuration list for PBXNativeTarget "Tren with diagrams" */;
+			buildPhases = (
+				C36B4B3925D3BFEA0053FAC3 /* Sources */,
+				C36B4B3A25D3BFEA0053FAC3 /* Frameworks */,
+				C36B4B3B25D3BFEA0053FAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tren with diagrams";
+			productName = "Tren with diagrams";
+			productReference = C36B4B3D25D3BFEA0053FAC3 /* Tren with diagrams.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C36B4B5225D3BFEC0053FAC3 /* Tren with diagramsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36B4B6A25D3BFEC0053FAC3 /* Build configuration list for PBXNativeTarget "Tren with diagramsTests" */;
+			buildPhases = (
+				C36B4B4F25D3BFEC0053FAC3 /* Sources */,
+				C36B4B5025D3BFEC0053FAC3 /* Frameworks */,
+				C36B4B5125D3BFEC0053FAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36B4B5525D3BFEC0053FAC3 /* PBXTargetDependency */,
+			);
+			name = "Tren with diagramsTests";
+			productName = "Tren with diagramsTests";
+			productReference = C36B4B5325D3BFEC0053FAC3 /* Tren with diagramsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C36B4B5D25D3BFEC0053FAC3 /* Tren with diagramsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36B4B6D25D3BFEC0053FAC3 /* Build configuration list for PBXNativeTarget "Tren with diagramsUITests" */;
+			buildPhases = (
+				C36B4B5A25D3BFEC0053FAC3 /* Sources */,
+				C36B4B5B25D3BFEC0053FAC3 /* Frameworks */,
+				C36B4B5C25D3BFEC0053FAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36B4B6025D3BFEC0053FAC3 /* PBXTargetDependency */,
+			);
+			name = "Tren with diagramsUITests";
+			productName = "Tren with diagramsUITests";
+			productReference = C36B4B5E25D3BFEC0053FAC3 /* Tren with diagramsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C36B4B3525D3BFEA0053FAC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C36B4B3C25D3BFEA0053FAC3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C36B4B5225D3BFEC0053FAC3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C36B4B3C25D3BFEA0053FAC3;
+					};
+					C36B4B5D25D3BFEC0053FAC3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C36B4B3C25D3BFEA0053FAC3;
+					};
+				};
+			};
+			buildConfigurationList = C36B4B3825D3BFEA0053FAC3 /* Build configuration list for PBXProject "Tren with diagrams" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C36B4B3425D3BFEA0053FAC3;
+			productRefGroup = C36B4B3E25D3BFEA0053FAC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C36B4B3C25D3BFEA0053FAC3 /* Tren with diagrams */,
+				C36B4B5225D3BFEC0053FAC3 /* Tren with diagramsTests */,
+				C36B4B5D25D3BFEC0053FAC3 /* Tren with diagramsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36B4B3B25D3BFEA0053FAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36B4B4D25D3BFEC0053FAC3 /* LaunchScreen.storyboard in Resources */,
+				C36B4B4A25D3BFEC0053FAC3 /* Preview Assets.xcassets in Resources */,
+				C36B4B4725D3BFEC0053FAC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36B4B5125D3BFEC0053FAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36B4B5C25D3BFEC0053FAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36B4B3925D3BFEA0053FAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36B4B4125D3BFEA0053FAC3 /* AppDelegate.swift in Sources */,
+				C36B4B4325D3BFEA0053FAC3 /* SceneDelegate.swift in Sources */,
+				C36B4B4525D3BFEA0053FAC3 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36B4B4F25D3BFEC0053FAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36B4B5825D3BFEC0053FAC3 /* Tren_with_diagramsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36B4B5A25D3BFEC0053FAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36B4B6325D3BFEC0053FAC3 /* Tren_with_diagramsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C36B4B5525D3BFEC0053FAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36B4B3C25D3BFEA0053FAC3 /* Tren with diagrams */;
+			targetProxy = C36B4B5425D3BFEC0053FAC3 /* PBXContainerItemProxy */;
+		};
+		C36B4B6025D3BFEC0053FAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36B4B3C25D3BFEA0053FAC3 /* Tren with diagrams */;
+			targetProxy = C36B4B5F25D3BFEC0053FAC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C36B4B4B25D3BFEC0053FAC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36B4B4C25D3BFEC0053FAC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C36B4B6525D3BFEC0053FAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C36B4B6625D3BFEC0053FAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C36B4B6825D3BFEC0053FAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tren with diagrams/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tren with diagrams/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Tren-with-diagrams";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C36B4B6925D3BFEC0053FAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tren with diagrams/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tren with diagrams/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Tren-with-diagrams";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C36B4B6B25D3BFEC0053FAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tren with diagramsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Tren-with-diagramsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tren with diagrams.app/Tren with diagrams";
+			};
+			name = Debug;
+		};
+		C36B4B6C25D3BFEC0053FAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tren with diagramsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Tren-with-diagramsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tren with diagrams.app/Tren with diagrams";
+			};
+			name = Release;
+		};
+		C36B4B6E25D3BFEC0053FAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tren with diagramsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Tren-with-diagramsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tren with diagrams";
+			};
+			name = Debug;
+		};
+		C36B4B6F25D3BFEC0053FAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tren with diagramsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Tren-with-diagramsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tren with diagrams";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36B4B3825D3BFEA0053FAC3 /* Build configuration list for PBXProject "Tren with diagrams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36B4B6525D3BFEC0053FAC3 /* Debug */,
+				C36B4B6625D3BFEC0053FAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36B4B6725D3BFEC0053FAC3 /* Build configuration list for PBXNativeTarget "Tren with diagrams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36B4B6825D3BFEC0053FAC3 /* Debug */,
+				C36B4B6925D3BFEC0053FAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36B4B6A25D3BFEC0053FAC3 /* Build configuration list for PBXNativeTarget "Tren with diagramsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36B4B6B25D3BFEC0053FAC3 /* Debug */,
+				C36B4B6C25D3BFEC0053FAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36B4B6D25D3BFEC0053FAC3 /* Build configuration list for PBXNativeTarget "Tren with diagramsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36B4B6E25D3BFEC0053FAC3 /* Debug */,
+				C36B4B6F25D3BFEC0053FAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C36B4B3525D3BFEA0053FAC3 /* Project object */;
+}
